@@ -92,7 +92,7 @@ class RecipeCard extends HTMLElement {
 				font-size: 12px;
 			}
 			`;
-		style.textContent = styles;
+		style.innerHTML = styles;
 		shodowE1.append(article);
 		shodowE1.append(style);
 	}
